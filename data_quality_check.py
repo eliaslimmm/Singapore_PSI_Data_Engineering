@@ -93,20 +93,3 @@ def negative_check(df):
         raise  
 
 
-# def check_daily_timestamp_count(df):
-# 
-#     expected_count = 24
-# 
-#     actual_count = df["timestamp"].nunique()
-# 
-#     if actual_count != expected_count:
-# 
-#         logging.error(
-#             "Expected %s timestamps, but found %s.",
-#             expected_count,
-#             actual_count
-#         )
-# 
-#         return False
-# 
-#     return True
